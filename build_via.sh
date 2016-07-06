@@ -31,7 +31,7 @@ if [ ! -e "$file" ]; then
 fi
 printf '%s\n%s\n%s\n%s\n' 'daemon=1' 'server=1' 'rpcuser=viacoinrpc' 'rpcpassword=p' | sudo tee $HOME/.viacoin/viacoin.conf
 file=/etc/init.d/viacoin
-if [ ! -e "file" ]; then
+if [ ! -e "$file" ]; then
     printf '%s\n%s\n' '#!/bin/sh' 'sudo viacoind' | sudo tee /etc/init.d/viacoin
     sudo chmod +x /etc/init.d/viacoin
     sudo update-rc.d viacoin defaults
