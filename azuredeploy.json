@@ -196,7 +196,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/romanornr/viacoin-blockchain-ubuntu/master/azuredeploy.json"
+            "https://raw.githubusercontent.com/romanornr/viacoin-blockchain-ubuntu/master/build_via.sh"
           ],
           "commandToExecute": "[concat('sh build_via.sh ', parameters('installMethod'))]"
         }
