@@ -47,7 +47,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "OSDiskName": "ViacoinOSDisk",
-    "imageSKU": "16.04-LTS",
+    "imageSKU": "14.04.4-LTS",
     "nicName": "ViacoinNic",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "ViacoinSubnet",
@@ -196,7 +196,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/romanornr/viacoin-blockchain-ubuntu/master/azuredeploy.json"
+            "https://raw.githubusercontent.com/romanornr/viacoin-blockchain-ubuntu/master/build_via.sh"
           ],
           "commandToExecute": "[concat('sh build_via.sh ', parameters('installMethod'))]"
         }
