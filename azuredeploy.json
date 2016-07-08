@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -48,7 +47,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "OSDiskName": "ViacoinOSDisk",
-    "imageSKU": "14.04.4-LTS",
+    "imageSKU": "16.04-LTS",
     "nicName": "ViacoinNic",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "ViacoinSubnet",
@@ -197,7 +196,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/viacoin-blockchain-ubuntu/build_via.sh"
+            "https://raw.githubusercontent.com/romanornr/viacoin-blockchain-ubuntu/master/azuredeploy.json"
           ],
           "commandToExecute": "[concat('sh build_via.sh ', parameters('installMethod'))]"
         }
