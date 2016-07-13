@@ -5,7 +5,7 @@ This template delivers the Viacoin network to your VM in about 20 minutes.  Ever
 You may build from source.  Once installed, 'viacoind' will begin syncing the public blockchain. 
 You may then connect via SSH to the VM and launch 'viacoind' to interface with the blockchain.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fromanornr%2Fviacoin-blockchain-ubuntu%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fviacoin-blockchain-ubuntu%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fviacoin-blockchain-ubuntu%2Fazuredeploy.json" target="_blank"><img src="http://armviz.io/visualizebutton.png"/></a>
 
 # What is Viacoin?
@@ -48,7 +48,7 @@ When you click the Deploy to Azure icon above, you need to specify the following
 * `installMethod`: This tells Azure to install Viacoin from source.
 * `vmSize`: This is the size of the VM to use.  Recommendations: Use the D series for installations from source.
 
-# Getting Started Tutorial
+# Getting Started Tutorial 
 
 * Click the `Deploy to Azure` icon above
 * Complete the template parameters, choose your resource group, accept the terms and click Create
